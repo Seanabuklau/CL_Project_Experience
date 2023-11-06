@@ -11,7 +11,7 @@ The data used is the Misue of Drugs Act 1973 and case laws taken from eLitigatio
 ## Methodology
 The proposed methodology is to leverage Retrieval Augmented Generation (RAG) coupled with Large Language Models to help with this estimation task. Since LLMs are trained on a vast array of text data, the assumption is that the model is well capable of understandning the query in natural language i.e. case details and provide a rough estimate by referencing the law. 
 
-RAG is used here to improve the performance of LLMS by augmenting them with information from external knowledge sources i.e. law, cases. As LLMs are trained on massive amounts of text data, they can still struggle with tasks that require access to specific facts or information especially this case concerning Singapore's Drugs Laws. RAG addresses this issue by allowing LLMs to retrieve and incorporate relevant information from external sources at generation time.
+RAG is used here to improve the performance of LLMS by augmenting them with information from external knowledge sources i.e. law, cases. As LLMs are trained on massive amounts of text data, they can still struggle with tasks that require access to specific facts or information especially this case concerning Singapore's Drugs Laws. RAG addresses this issue by allowing LLMs to retrieve and incorporate relevant information from external sources at generation time. This task utilises Google's LLM text-bison for predicting the punishments.
 
 ## Steps
 ### i. Parse Corpus
